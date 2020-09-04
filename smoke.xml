@@ -9,7 +9,7 @@
 		</groups>
 
 		<packages>
-			<package name="com.syntax.class2" />
+			<package name="com.syntax.class3" />
 		</packages>
-	</test> <!-- Smoke Test -->
-</suite> <!-- Smoke Suite -->
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
