@@ -24,10 +24,10 @@ public class GroupsExample {
 		driver.quit();
 	}
 
-	@Test(groups = "smoke")
+	@Test(groups = "Smoke")
 	public void validLogin() {
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-		driver.findElement(By.id("txtPassword")).sendKeys("Hum@nhrm123");
+		driver.findElement(By.id("txtPasswor")).sendKeys("Hum@nhrm123");
 		driver.findElement(By.cssSelector("input#btnLogin")).click();
 		String welcomeText = driver.findElement(By.id("welcome")).getText();
 		if (welcomeText.contains("Admin")) {
